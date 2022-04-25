@@ -1,19 +1,18 @@
 import "./App.scss"
-import Footer from "./components/Footer/Footer"
+
 import Header from "./components/Header/Header"
-import Main from "./components/Main/Title";
-// class -> className
-// for -> htmlFor
-// snake case -> camelCase
+import Todo from "./components/Todos/Todo";
+import Todos from "./components/TodoClassCompanet/Todo";
+import Form from "./components/Form/Form";
 
 function App() {
   
   return (
     <div className="App">
       <Header />
-      <Footer />
-      <Main />
- 
+      <Todo /> 
+      {/* <Todos /> */}
+    <Form/>
   </div>
   )
  }

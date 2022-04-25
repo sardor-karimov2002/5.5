@@ -1,0 +1,16 @@
+.karimov{
+    width: 1000px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+    .sardor{
+        width:calc(100%/3);
+        border: 1px solid red;
+        padding: 10px;
+        background-color: aqua;
+        box-shadow: 0 0 5px black;
+        margin: 10px;
+    };
+}

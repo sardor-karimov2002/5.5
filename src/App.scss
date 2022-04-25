@@ -1,4 +1,12 @@
 .App{
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  min-width: 1000px;
+  margin: auto;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
   &__navbar{
     display: flex;
   }
